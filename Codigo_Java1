@@ -1,0 +1,21 @@
+//Importacion de paquetes
+import javax.swing.JOptionPane;
+
+
+
+public class Hola_Mundo {
+    public static void main (String [] args) {
+        //Declaracion de variables 
+        byte b,h;
+        float area; 
+        
+        System.out.println( "AREA DEL TRIANGULO");
+        b=Byte.parseByte(JOptionPane.showInputDialog("INGRESA BASE"));
+        h=Byte.parseByte(JOptionPane.showInputDialog("INGRESA ALTURA"));
+        area=(b*h)/2;
+        System.out.println("EL AREA DEL TRIANGULO ES" + area);
+        
+    }
+   
+    
+}
